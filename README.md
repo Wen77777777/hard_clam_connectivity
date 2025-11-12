@@ -2,11 +2,11 @@
 
 ## A Nine-Year Assessment Using Effective Accumulated Temperature Framework in the Bohai Sea
 
-This repository contains the analysis code and visualization scripts for our research on Hard clam (*Meretrix meretrix*) connectivity patterns in the Bohai Sea Marine Protected Area (MPA) network.
+This repository contains the analysis code and visualization scripts for our research on hard clam (*Meretrix petechialis*) connectivity patterns in the Bohai Sea Marine Protected Area (MPA) network.
 
 ### Overview
 
-This study investigates how temperature variability influences larval connectivity patterns between MPAs in the Bohai Sea from 2014-2022. We developed an Individual-Based Model (IBM) incorporating stage-specific temperature responses to assess connectivity dynamics under different thermal regimes.
+This study quantifies how interannual thermal variability influences larval connectivity patterns in the Bohai Sea MPA network from 2014-2022. We developed a temperature-explicit biophysical model incorporating accumulated thermal units to assess connectivity dynamics under different thermal regimes. Our analysis reveals that in weak-current environments like the Bohai Sea, dispersal distances show reduced sensitivity to temperature-driven pelagic larval duration (PLD) changes, with important implications for MPA network design under climate change.
 
 ### Key Features
 
@@ -154,21 +154,27 @@ results = temp_analyzer.analyze_temperature_effects(year=2018)
 - Simulation period: September (peak spawning season)
 - Particle release: 10,000 particles/day per MPA
 
+#### Temperature Variability (2014-2022)
+- Annual mean egg temperature range: 25.72–26.71°C (0.99°C variation)
+- Cold vs. warm year difference: 0.64°C
+- Extreme exposure (≥30°C): 0.35–8.60% (25-fold variation between years)
+
 ### Key Findings
 
-1. **Temperature-driven connectivity patterns**: Warm years show significantly different connectivity patterns compared to cold years
-2. **Network resilience**: Self-recruitment rates vary by 2-3 fold between temperature regimes
-3. **Critical corridors**: Certain MPA connections serve as temperature-sensitive bottlenecks
-4. **Management implications**: Temperature variability should be incorporated into MPA network design
+1. **Non-linear dispersal response**: Between cold and warm years (0.64°C difference), pelagic larval duration decreased by 10.2% (0.60 days), yet mean dispersal distance decreased by only 5.1% (0.56 km). This disproportionate response reflects the weak-current environment of the Bohai Sea, where low flow velocities create a baseline constraint on dispersal.
+
+2. **Network-level connectivity shifts**: Absolute self-recruitment increased from 0.221 to 0.238, while leakage to unprotected areas decreased from 0.686 to 0.658 between cold and warm years.
+
+3. **Heterogeneous site responses**: Individual reserves showed variable responses—the most isolated site maintained only 17% self-recruitment with <1% external MPA input, while historically sink-dominated areas gained up to 2.8 percentage points in self-recruitment under warming.
+
+4. **Extreme temperature exposure**: Exposure to sublethal temperatures (≥30°C) varied 25-fold between years (0.35–8.60%), potentially triggering threshold mortality effects beyond mean temperature impacts.
+
+5. **Management implications**: In marginal seas with weak circulation, spatial network optimization may provide greater conservation benefits than strategies relying on temperature-driven connectivity responses for maintaining MPA connectivity under climate change.
 
 
 ### License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-### Contributing
-
-We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ### Contact
 
