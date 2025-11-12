@@ -161,22 +161,6 @@ results = temp_analyzer.analyze_temperature_effects(year=2018)
 3. **Critical corridors**: Certain MPA connections serve as temperature-sensitive bottlenecks
 4. **Management implications**: Temperature variability should be incorporated into MPA network design
 
-### Citation
-
-If you use this code in your research, please cite:
-
-```bibtex
-@article{yourname2024,
-  title={Temperature-driven connectivity dynamics in marine protected area networks:
-         A nine-year assessment using effective accumulated temperature framework in the Bohai Sea},
-  author={Your Name et al.},
-  journal={Journal Name},
-  year={2024},
-  volume={X},
-  pages={XXX-XXX},
-  doi={10.XXXX/XXXXXX}
-}
-```
 
 ### License
 
@@ -198,12 +182,3 @@ We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guid
 - Funding support from [Grant Numbers]
 - Computational resources provided by [HPC Center]
 
-### References
-
-Key literature cited in the model development:
-
-1. Kim, T.I., et al. (2010). Effect of temperature and salinity on egg development of Hard clam *Ruditapes philippinarum*. Korean J. Malacol. 26, 297-302.
-
-2. Kim, T.I., et al. (2011). Influence of water temperature on spawning induction and larval development of Hard clam. Korean J. Malacol. 27, 107-112.
-
-3. [Additional key references...]
