@@ -52,7 +52,7 @@ hard_clam_connectivity/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/hard_clam_connectivity.git
+git clone https://github.com/Wen77777777/hard_clam_connectivity.git
 cd hard_clam_connectivity
 ```
 
@@ -172,13 +172,11 @@ We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guid
 
 ### Contact
 
-- **Corresponding Author**: [Your Name] (email@institution.edu)
-- **Lab Website**: [Your Lab URL]
-- **Issues**: Please report bugs and feature requests via [GitHub Issues](https://github.com/yourusername/hard_clam_connectivity/issues)
+- **Corresponding Author**: Binduo Xu (bdxu@ouc.edu.cn)
+- **Laboratory**: Laboratory of Fisheries Ecosystem Monitoring and Assessment, Ocean University of China
+- **Issues**: Please report bugs and feature requests via [GitHub Issues](https://github.com/Wen77777777/hard_clam_connectivity/issues)
 
 ### Acknowledgments
 
-- Ocean model data provided by [Institution/Collaborator]
-- Funding support from [Grant Numbers]
-- Computational resources provided by [HPC Center]
+We acknowledge the support and resources that made this research possible. Detailed acknowledgments will be included in the published manuscript.
 
